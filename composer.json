@@ -3,7 +3,8 @@
     "description": "Laravel Enum Package",
     "keywords": [
         "Datlv",
-        "laravel-enum"
+        "laravel",
+        "enum"
     ],
     "homepage": "https://gitlab.com/datlv/laravel-enum",
     "license": "MIT",
