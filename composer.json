@@ -6,7 +6,7 @@
         "laravel",
         "enum"
     ],
-    "homepage": "https://gitlab.com/datlv/laravel-enum",
+    "homepage": "https://github.com/datlv/laravel-enum",
     "license": "MIT",
     "authors": [
         {
@@ -23,7 +23,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://gitlab.com/datlv/laravel-kit.git"
+            "url": "https://github.com/datlv/laravel-kit.git"
         },
         {
             "type": "vcs",
