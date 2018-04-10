@@ -1,0 +1,65 @@
+{
+    "name": "datlvlaravel-enum",
+    "description": "Laravel Enum Package",
+    "keywords": [
+        "Datlv",
+        "laravel-enum"
+    ],
+    "homepage": "https://gitlab.com/datlv/laravel-enum",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Datlv",
+            "email": "datle2011@gmail.com",
+            "homepage": "http://Datlv.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/datlv/laravel-authority.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/datlv/laravel-kit.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/datlv/laravel-user.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Datlv/laravel-setting.git"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "Datlv/laravel-kit": "dev-master"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.5",
+        "orchestra/database": "~3.5",
+        "nunomaduro/collision": "^1.1",
+        "datlv/laravel-authority": "dev-master",
+        "datlv/laravel-user": "dev-master",
+        "datlv/laravel-setting": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Datlv\\Enum\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Datlv\\Enum\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Datlv\\Enum\\ServiceProvider"
+            ]
+        }
+    }
+}
