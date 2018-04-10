@@ -7,7 +7,7 @@
 	"repositories": [
         {
             "type": "vcs",
-            "url": "https://gitlab.com/datlv/laravel-enum.git"
+            "url": "https://github.com/datlv/laravel-enum.git"
         }
     ],
     "require": {
